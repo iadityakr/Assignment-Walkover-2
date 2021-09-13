@@ -76,4 +76,7 @@ a:hover {
   .confort {
     font-size: 16px;
   }
+  .front {
+    height: 60px;
+  }
 }
