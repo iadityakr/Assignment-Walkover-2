@@ -89,6 +89,51 @@ a:hover {
     height: 60px;
   }
 }
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .centered {
+    font-size: 25px;
+    top: 60%;
+    left: 33%;
+  }
+  .shop {
+    left: 32%;
+  }
+  .confort {
+    font-size: 16px;
+    top: 55%;
+    left: 32%;
+  }
+}
+@media screen and (max-width: 367px) {
+  .confort {
+    font-size: 14px;
+    top: 55%;
+    left: 35%;
+  }
+  .shop {
+    left: 35%;
+  }
+  .centered {
+    font-size: 18px;
+    top: 60%;
+    left: 38%;
+  }
+}
+@media screen and (min-width: 368px) and (max-width: 470px) {
+  .confort {
+    font-size: 14px;
+    top: 55%;
+    left: 37%;
+  }
+  .shop {
+    left: 37%;
+  }
+  .centered {
+    font-size: 18px;
+    top: 60%;
+    left: 40%;
+  }
+}
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
 
 body {
