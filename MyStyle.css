@@ -61,6 +61,9 @@ img {
   height: 100%;
   width: 100%;
 }
+.form {
+  width: 100%;
+}
 @media screen and (max-width: 768px) {
   .box1,
   .box2,
@@ -79,4 +82,3 @@ img {
     margin-top: 10%;
   }
 }
-
