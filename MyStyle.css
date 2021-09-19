@@ -57,12 +57,16 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
+.child32 {
+  position: relative;
+}
 img {
   height: 100%;
   width: 100%;
 }
 .form {
   width: 100%;
+  position: absolute;
 }
 @media screen and (max-width: 768px) {
   .box1,
