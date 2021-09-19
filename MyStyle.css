@@ -1,1 +1,82 @@
+.wrapper {
+  float: left;
+  width: 100%;
+  margin: 1em;
+  justify-content: space-between;
+}
+* {
+  text-align: center;
+}
+
+.box1,
+.box2,
+.box3 {
+  height: 600px;
+  width: 30%;
+  background-color: orange;
+  float: left;
+  margin: 0.5em;
+}
+.child11,
+.child12,
+.child13,
+.child14 {
+  background-color: aqua;
+  float: left;
+
+  height: 45%;
+  width: 45%;
+}
+.child11,
+.child12 {
+  margin-top: 7%;
+  margin-bottom: 2%;
+}
+.child11,
+.child13 {
+  margin-left: 4%;
+  margin-right: 2%;
+}
+.child2 {
+  background-color: aqua;
+  height: 45%;
+  width: 95%;
+  margin: 0.5em;
+  float: left;
+  margin-top: 4%;
+}
+.child31,
+.child32 {
+  background-color: aqua;
+  height: 45%;
+  width: 55%;
+  margin: auto;
+  text-align: center;
+}
+.child31 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .box1,
+  .box2,
+  .box3 {
+    width: 95%;
+    background-color: yellow;
+  }
+  .child11,
+  .child12,
+  .child13,
+  .child14 {
+    height: 40%;
+  }
+  .child11,
+  .child12 {
+    margin-top: 10%;
+  }
+}
 
